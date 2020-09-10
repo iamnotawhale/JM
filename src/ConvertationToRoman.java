@@ -3,7 +3,7 @@ import java.util.List;
 public class ConvertationToRoman {
     public static String arabicToRoman(int number) {
         if ((number <= 0) || (number > 100)) {
-            throw new IllegalArgumentException("Неккоректное введеное число");
+            throw new IllegalArgumentException("Римских отрицательных чисел не существует");
         }
 
         List<RomanNumber> romanNumerals = RomanNumber.getReverseSortedValues();
