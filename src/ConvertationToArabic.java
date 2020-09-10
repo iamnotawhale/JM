@@ -20,7 +20,7 @@ public class ConvertationToArabic {
         }
 
         if (romanNumeral.length() > 0) {
-            throw new IllegalArgumentException("Неккоректное введеное число");
+            throw new IllegalArgumentException("Отрицательных римских чисел не существует");
         }
 
         return result;
